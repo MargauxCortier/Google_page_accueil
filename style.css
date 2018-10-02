@@ -49,15 +49,13 @@ header {
 	margin-bottom: center;	
 }
 
-article
-{
+article {
 	display: flex;
 	justify-content: center;
 	padding: 22px;
 }
 
-.champ
-{
+.champ {
 	height: 30px;
 	width: 380px;
 	box-shadow: 2px 2px 3px grey;
@@ -66,7 +64,7 @@ article
 }
 
 .sousgoogle
-{
+ {
 	background: #ecf0f1;
 	font-family: arial;
 	font-weight: bold;
@@ -80,6 +78,11 @@ article
 {
 	padding-left: 1%;
 }
+
+.sousgoogle:hover {
+	box-shadow: 2px 2px 3px grey;
+}
+
 /*fin de la partie Google */
 /*debut de la partie footer */
 
